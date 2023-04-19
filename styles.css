@@ -1,9 +1,13 @@
 .cupon {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 35rem;
 }
 
+.cupon2 {
+    display: flex;
+    justify-content: center;
+}
 .img {
     display: flex;
     justify-content: center;
