@@ -1,0 +1,17 @@
+    margin-top: 20rem;
+
+ 
+https://www.redbubble.com/es/i/poster/cup%C3%B3n-de-abrazos-gratis-de-Youssef02/136902624.LVTDI#&gid=1&pid=2"
+ 
+ <button id="botonClick">Click</button>
+        <p id="areaContador"></p>
+        <script type="text/javascript">
+            var botonElement = document.getElementById("botonClick");
+            var pElement = document.getElementById("areaContador");
+            var contador = 0;
+            botonElement.onclick = function () {
+                contador++;
+                pElement.textContent = contador;
+            }
+        </script>
+ 
